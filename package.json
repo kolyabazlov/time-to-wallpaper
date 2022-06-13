@@ -1,24 +1,17 @@
 {
-  "name": "colormaker",
-  "type": "module",
+  "name": "time-to-wallpaper",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "description": "Random wallpapers",
+  "main": "process.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node process.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kolya Bazlov",
   "license": "ISC",
   "dependencies": {
     "applescript": "^1.0.0",
-    "express": "^4.17.3",
-    "jimp": "^0.16.1",
-    "nodemon": "^2.0.15",
-    "random-hex": "^1.0.2",
-    "random-hexadecimal": "^1.0.3",
-    "random-int": "^3.0.0",
-    "randomstring": "^1.2.2"
+    "jimp": "^0.16.1"
   }
 }
