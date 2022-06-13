@@ -1,11 +1,9 @@
-## time-to-wallpaper
-- - -
+# time-to-wallpaper
 
 This script generates an image with random filled color, saves it to the _desktop*_,  
 sets it as a _wallpaper**_ and instantly deletes it.
 
-### Usage
-- - -
+## Usage
 
 You need [node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/).  
 
@@ -16,8 +14,7 @@ Clone repository, open terminal, then
 
 _as always, lol_.
 
-### Configure
-- - -
+## Configure
 
 Open and edit config.js  
 
@@ -28,15 +25,12 @@ Open and edit config.js
 | **pathDist**    | string             | path    | /Desktop/ | path to store an image              | Please don't change it. Read end of readme.                                                                                                                                                      |
 | **saveSource**  | boolean            |         | false     | opportunity to save the source      | Script log displays generated color in HEX format. With this option set to `true` you have an opportunity to make a lot of color filled images.                                                  |
 
-### From author
-- - -
+## From the author
 
 My experience has shown that the lack of possibility to choose the color by yourself,   
 gives you a feeling that every color is very pretty.
 
 Enjoy:)
-
-- - -
 
 If many people would like it, I will develop some cool new features to set as wallpaper like: 
 
